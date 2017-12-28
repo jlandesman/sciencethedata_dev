@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 AUTHOR = u'Jonathan Landesman'
 SITENAME = u'Science the Data'
 SITEURL = ''
-
+THEME = 'pelican-themes/html5-dopetrope'
 PATH = 'content'
 
 TIMEZONE = 'America/New_York'
@@ -32,4 +32,4 @@ SOCIAL = (('You can add links in your config file', '#'),
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+RELATIVE_URLS = True
