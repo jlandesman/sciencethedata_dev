@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 AUTHOR = u'Jonathan Landesman'
 SITENAME = u'Science the Data'
 SITEURL = ''
-THEME = 'pelican-themes/pure'
+THEME = 'pelican-themes/pelican-chunk'
 PATH = 'content'
 
 TIMEZONE = 'America/New_York'
