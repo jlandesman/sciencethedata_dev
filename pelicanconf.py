@@ -36,3 +36,5 @@ RELATIVE_URLS = True
 
 MARKUP = ('md','ipynb')
 PLUGINS = ['ipynb.markup']
+PLUGIN_PATHS = ['plugins']
+
