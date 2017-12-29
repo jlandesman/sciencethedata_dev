@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 AUTHOR = u'Jonathan Landesman'
 SITENAME = u'Science the Data'
 SITEURL = ''
-THEME = 'pelican-themes/pelican-chunk'
+THEME = '/home/jlandesman/pelican-themes/aboutwilson'
 PATH = 'content'
 
 TIMEZONE = 'America/New_York'
@@ -33,3 +33,6 @@ DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
+
+MARKUP = ('md','ipynb')
+PLUGINS = ['ipynb.markup']
